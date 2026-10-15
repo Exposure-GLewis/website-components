@@ -1,43 +1,26 @@
 {
   "schemaVersion": 1,
+  "libraryVersion": "1.0.0",
   "components": [
     {
-      "id": "three-column",
+      "id": "hero-with-video-background",
       "version": "1.0.0",
-      "name": "Three Column Layout",
-      "category": "Layouts",
-      "description": "Three semantic columns with headings, placeholder content, and a minimal inline grid style. HTML-only insertion.",
-      "html": "three-column/template.html"
+      "name": "Hero — Video Background",
+      "category": "Heroes",
+      "description": "Responsive background video with a play/pause control. Replace the three video source placeholders before use.",
+      "html": "hero-with-video-background/markup.html",
+      "css": "hero-with-video-background/styles.css",
+      "javascript": "hero-with-video-background/javascript.js"
     },
     {
-      "id": "ws-hero-video",
+      "id": "hero-with-image-fader-background",
       "version": "1.0.0",
-      "name": "Hero \u2014 Video Background",
+      "name": "Hero — Image Fader Background",
       "category": "Heroes",
-      "description": "Responsive background video with play/pause control. Link the CSS and JavaScript manually and replace the three /path/to/*.mp4 placeholders.",
-      "html": "ws-hero-video/template.html",
-      "css": "ws-hero-video/style.css",
-      "javascript": "ws-hero-video/script.js"
-    },
-    {
-      "id": "ws-hero-image-fader",
-      "version": "1.0.0",
-      "name": "Hero \u2014 Image Fader",
-      "category": "Heroes",
-      "description": "Three-image background slideshow with pause/play and reduced-motion support. Link CSS and JavaScript manually; replace the external placeholder images for offline website use.",
-      "html": "ws-hero-image-fader/template.html",
-      "css": "ws-hero-image-fader/style.css",
-      "javascript": "ws-hero-image-fader/script.js"
-    },
-    {
-      "id": "ws-hero-single-image",
-      "version": "1.0.0",
-      "name": "Hero \u2014 Single Background Image",
-      "category": "Heroes",
-      "description": "Single decorative background image with overlay and heading. Link CSS manually; replace the external placeholder image for offline website use.",
-      "html": "ws-hero-single-image/template.html",
-      "css": "ws-hero-single-image/style.css"
+      "description": "Background image slideshow with pause/play controls. Includes external placeholder image URLs.",
+      "html": "hero-with-image-fader-background/markup.html",
+      "css": "hero-with-image-fader-background/styles.css",
+      "javascript": "hero-with-image-fader-background/javascript.js"
     }
-  ],
-  "libraryVersion": "1.1.0"
+  ]
 }

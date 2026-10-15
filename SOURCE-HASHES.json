@@ -1,0 +1,11 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "hero-with-video-background/markup.html": "fc175db9689cee80ba68a4607535dcb1a4c5458ed36b4f8c07e885109119db65",
+    "hero-with-video-background/styles.css": "25e786942318445adca92e1fddeabed0e6d420193c1202ffca8240eab51f25e9",
+    "hero-with-video-background/javascript.js": "d9acce11dea68d42d7b009f2f73c56966f28e9c76b3394b7d7db7413763f3916",
+    "hero-with-image-fader-background/markup.html": "afb0e2f487268023fa8c9a260560039cc20c868d5a1932cbfe0f7eef74a2fe50",
+    "hero-with-image-fader-background/styles.css": "c7a92f11449d1b707b220baf3f26cc34f5c304bd1d51039c35498201952870fd",
+    "hero-with-image-fader-background/javascript.js": "744bcfb86d6629892ebe4e91cd4c88d0fadb8f2cbcc0a9ed88dc03f069e1377a"
+  }
+}
