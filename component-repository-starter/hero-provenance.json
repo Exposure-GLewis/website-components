@@ -1,0 +1,32 @@
+{
+  "source": "/Users/geoffreylewis/Desktop/Code-Blocks/heros/default.aspx",
+  "sha256": "4fb4890bbbe891268f22735b1f9ba2e83e06cedd2495a207cbf7993a6bfe726a",
+  "sourceSections": [
+    {
+      "section": "video",
+      "componentId": "ws-hero-video",
+      "originalFiles": [
+        "html",
+        "css",
+        "js"
+      ]
+    },
+    {
+      "section": "image-fader",
+      "componentId": "ws-hero-image-fader",
+      "originalFiles": [
+        "html",
+        "css",
+        "js"
+      ]
+    },
+    {
+      "section": "single-image",
+      "componentId": "ws-hero-single-image",
+      "originalFiles": [
+        "html",
+        "css"
+      ]
+    }
+  ]
+}

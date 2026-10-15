@@ -1,0 +1,100 @@
+.cl-hero-video {
+  align-items: center;
+  display: flex;
+  min-height: 60vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.cl-hero-video .cl-hero-video__content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.cl-hero-video h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.cl-hero-video__media {
+  inset: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.cl-hero-video__media video {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.cl-hero-video__media::after {
+  background: rgba(0,0,0,0.4);
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Component support styles: scoped so separate hero variants can coexist. */
+.cl-hero-video {
+  background: #213d49;
+  color: #fff;
+  isolation: isolate;
+}
+.cl-hero-video, .cl-hero-video * { box-sizing: border-box; }
+.cl-hero-video .cl-hero-video__content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.cl-hero-video h1 {
+  color: inherit;
+  font-family: inherit;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.cl-hero-video .cl-hero-video__sr-only {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.cl-hero-video .cl-hero-video__controls {
+  bottom: 1rem;
+  position: absolute;
+  right: 1rem;
+  z-index: 3;
+}
+.cl-hero-video .cl-hero-video__toggle {
+  align-items: center;
+  background: rgba(0, 0, 0, .65);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 2.75rem;
+  justify-content: center;
+  width: 2.75rem;
+}
+.cl-hero-video .cl-hero-video__toggle::before { content: "▶"; }
+.cl-hero-video .cl-hero-video__toggle.is-playing::before { content: "Ⅱ"; }
+.cl-hero-video .cl-hero-video__toggle:focus-visible { outline: 3px solid #ffde72; outline-offset: 4px; }
