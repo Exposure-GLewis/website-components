@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "components": [
+    {
+      "id": "three-column",
+      "version": "1.0.0",
+      "name": "Three Column Layout",
+      "category": "Layouts",
+      "description": "Three semantic columns with headings, placeholder content, and a minimal inline grid style. HTML-only insertion.",
+      "html": "three-column/template.html"
+    },
+    {
+      "id": "ws-hero-video",
+      "version": "1.0.0",
+      "name": "Hero \u2014 Video Background",
+      "category": "Heroes",
+      "description": "Responsive background video with play/pause control. Link the CSS and JavaScript manually and replace the three /path/to/*.mp4 placeholders.",
+      "html": "ws-hero-video/template.html",
+      "css": "ws-hero-video/style.css",
+      "javascript": "ws-hero-video/script.js"
+    },
+    {
+      "id": "ws-hero-image-fader",
+      "version": "1.0.0",
+      "name": "Hero \u2014 Image Fader",
+      "category": "Heroes",
+      "description": "Three-image background slideshow with pause/play and reduced-motion support. Link CSS and JavaScript manually; replace the external placeholder images for offline website use.",
+      "html": "ws-hero-image-fader/template.html",
+      "css": "ws-hero-image-fader/style.css",
+      "javascript": "ws-hero-image-fader/script.js"
+    },
+    {
+      "id": "ws-hero-single-image",
+      "version": "1.0.0",
+      "name": "Hero \u2014 Single Background Image",
+      "category": "Heroes",
+      "description": "Single decorative background image with overlay and heading. Link CSS manually; replace the external placeholder image for offline website use.",
+      "html": "ws-hero-single-image/template.html",
+      "css": "ws-hero-single-image/style.css"
+    }
+  ],
+  "libraryVersion": "1.1.0"
+}

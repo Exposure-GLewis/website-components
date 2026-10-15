@@ -1,0 +1,55 @@
+.cl-hero-image {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  min-height: 60vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.cl-hero-image img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.cl-hero-image::after {
+  background: rgba(0, 0, 0, 0.4);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.cl-hero-image .cl-hero-image__content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* Component support styles: scoped so separate hero variants can coexist. */
+.cl-hero-image {
+  background: #213d49;
+  color: #fff;
+  isolation: isolate;
+}
+.cl-hero-image, .cl-hero-image * { box-sizing: border-box; }
+.cl-hero-image .cl-hero-image__content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.cl-hero-image h1 {
+  color: inherit;
+  font-family: inherit;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  margin: 0;
+}
